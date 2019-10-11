@@ -506,7 +506,7 @@ def create_rounds(tournament_list):
         for r in range(int(number_rounds)):
             # Check the value of num_rounds to determine the day value of this Round object.
             if int(num_rounds) == 4:
-                day = "Thur"
+                day = "Thu"
             elif int(num_rounds) == 3:
                 day = "Fri"
             elif int(num_rounds) == 2:
